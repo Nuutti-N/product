@@ -9,10 +9,16 @@ Tiimimme päivittäiset tapahtumat kirjataan paperillisesti lokikirjaan, joten
 - Altistaa virheille, sekä katoamiselle. Paperilliset yleinsä heitetään roskiin tai häviävät muiden papereiden joukkoon.
 - Ylimääräinen tarkistus ja käsintarkastus. Jokainen tekee oman version paperille, niin joudutaan tarkistamaan jokainen erikseen, mutta jos olisi sovellus johon kaikki kirjaisi niin toimisi nopeammin. 
 
-# Visio: Tarkoituksena tarjota nopea ja yksinkertainen logbook sovellus, mikä parantaa tilannetietoisuutta, sekä keskeyttää käsillä tehdyt kirjoitukset. 
+# Visio: Tarkoituksena tarjota nopea ja yksinkertainen logbook sovellus, mikä parantaa tilannetietoisuutta, sekä keskeyttää käsillä tehdyt kirjoitukset. Logbook antaa selkeän kuvan jokaiselle ja nopeuttaa liiketoiminnassa tärkeämpiä asioita. 
 
 Mitä (what)
-
-
+- Toiminnot, käyttäjä voi luoda, lukea, muokata ja poistaa yksikkökohtaisia lokimerkintöjä, hyödykästä.
+- Yksinkertainen kirjautuminen kaikille. 
+- Aikajärjestyksessä olevat kohdat, kuten lista tai haku.
 
 Miten (how) 
+Tietenkin aina kysytään "miten", mutta ei pidä ajatella aina niin vaikeasti asioita vaan mahdollisuuksina. Jos tiimissä on 4 varusmiestä/työntekijää. 
+- Teknologia, backend, frontend, tietomalleina body, id, title.
+-  Käytetään myös CI, koska se automatisoi koodin toiminnan. Docker kokoo sovelluksen yhteen, että sen kehittäminen ja muut ominaisuudet ovat yksinkertaisia. 
+- sovellus on tarkoitettu selainsovellukseksi eli ei pysty perinteisesti appstoren tai playkaupan kautta lataamaan.
+- Työprosessi haetaan yksinkertaista eli toiminnan kesto max 2 päivää, johon otetaan koonti/palaveri. Kommunikointi tapahtuu päivittäisesti muutaman tunnin mittaisessa discord puhelussa, ja kommunikointi jatkuu päivän myöten. Tietenkin demo-versio luodaan. 
